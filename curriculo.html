@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo | Bruno Alexandre</title>
+
+    <!-- Bibliotecas de Ícones do FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/curriculo.css">
+</head>
+
+<body>
+
+    <!-- Conteúdo principal -->
+    <main class="container-curriculo">
+
+        <!-- CABEÇALHO SUPERIOR (Logo + Contador + Pontos) -->
+        <header class="cabecalho-carrossel">
+            <div class="logo">
+                <i class="fa-solid fa-code"></i>
+                <span>Meu Currículo</span>
+            </div>
+
+            <div class="indicadores">
+                <span class="contador">1 / 6</span>
+                <div class="pontos">
+                    <span class="ponto ativo"></span>
+                    <span class="ponto"></span>
+                    <span class="ponto"></span>
+                    <span class="ponto"></span>
+                    <span class="ponto"></span>
+                    <span class="ponto"></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- ÁREA DO SLIDE COM AS SETAS LATERAIS -->
+        <div class="area-slide">
+
+            <!-- Seta Esquerda -->
+            <button class="btn-seta esquerda">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <!-- SLIDE 1 -->
+            <div class="slide ativo slider1">
+                <div class="coluna-foto">
+                    <img src="img/Bruno.png" alt="Bruno Alexandre">
+                </div>
+
+                <div class="coluna-texto">
+                    <span class="apresentacao-azul">APRESENTAÇÃO</span>
+                    <h1 class="nomeDestaque">Bruno Alexandre <br> <span class="texto-azul">de França</span></h1>
+                    <h2 class="subTitulo">Desenvolvedor Back-end | Node.js | JavaScript<br>Estudante de Engenharia de
+                        Software</h2>
+                    <p class="textoDescricao">
+                        Sou um desenvolvedor apaixonado por resolver problemas e criar soluções eficientes,
+                        atualmente cursando Engenharia de Software na Wyden. Tenho foco em estudos e projetos
+                        práticos no ecossistema JavaScript, construindo uma base sólida para o desenvolvimento
+                        de APIs e arquitetura de servidores.
+                    </p>
+                </div>
+            </div>
+
+            <!-- SLIDE 2 -->
+            <div class="slide slider2">
+
+                <!-- Coluna da Esquerda: Textos e Lista -->
+                <div class="coluna-texto-stack">
+
+                    <!-- Cabeçalho do Slide 2 -->
+                    <div class="cabecalho-stack">
+                        <div class="icone-redondo-topo">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="titulos-stack">
+                            <span class="apresentacao-azul">TECNOLOGIAS</span>
+                            <h2 class="nomeDestaque menor">Minha stack de tecnologia <br> atual inclui:</h2>
+                        </div>
+                    </div>
+
+                    <!-- Lista de Habilidades -->
+                    <div class="lista-skills">
+   
+                        <!-- Item 1: JS -->            
+                        <div class="item-skill">
+                            <div class="icone-skill amarelo"><i class="fa-brands fa-js"></i></div>
+                            <p>JavaScript & Node.js</p>
+                        </div>
+
+                        <!-- Item 2: Lógica -->
+                        <div class="item-skill">
+                            <div class="icone-skill azul"><i class="fa-solid fa-code"></i></div>
+                            <p>Lógica de Programação e Estrutura de Dados</p>
+                        </div>
+
+                        <!-- Item 3: HTML5 -->
+                        <div class="item-skill">
+                            <div class="icone-skill laranja"><i class="fa-brands fa-html5"></i></div>
+                            <p>Conhecimentos em Front-end (HTML5) para melhor integração de sistemas.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Coluna da Direita: Imagem -->
+                <div class="coluna-imagem-stack">
+                    <img src="img/logos.png" alt="Composição de Hexágonos das Tecnologias">
+                </div>
+
+            </div>
+
+            <!-- Seta Direita -->
+            <button class="btn-seta direita">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+        </div>
+
+    </main>
+
+    <script src="js/curriculo.js"></script>
+</body>
+
+</html>
